@@ -1,0 +1,60 @@
+.template-wrap {
+  padding-left: 10px;
+  padding-top: 1px;
+  font-size: 15px;
+  height: 500px;
+  width: 1100px;
+}
+.e-schedule .e-appointment-details {
+  padding: 0 !important;
+}
+.e-textlabel{
+    padding: 20px !important;
+}
+#dialog__td--gird {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+#dialog__p--seName {
+  background-color: whitesmoke;
+  padding: 10px;
+  border-radius: 30px;
+  font-weight: bold;
+  color: rgb(255, 59, 89);
+}
+
+#dialog__td {
+  flex-direction: row;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+#dialog__Button--Delete {
+  font-weight: bold;
+  background-color: #ed112a;
+  color: white;
+  border-radius: 20px;
+  width: 20%;
+  display: block;
+  margin: 0 auto;
+  margin-top: 20px;
+  &:hover {
+    background-color: #b00622;
+  }
+}
+#dialog__Button--Save {
+  font-weight: bold;
+  background-color: #fda4af;
+  color: white;
+  border-radius: 20px;
+  width: 20%;
+  display: block;
+  margin: 0 auto;
+  margin-top: 20px;
+  &:hover {
+    background-color: #f43f5e;
+  }
+}

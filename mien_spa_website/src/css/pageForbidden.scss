@@ -1,0 +1,71 @@
+@import url(https://fonts.googleapis.com/css?family=Raleway:700);
+
+
+.bgPageForbidden {
+    font-family: 'Raleway', sans-serif;
+    background-color: #ffffff; 
+    height: 100vh;
+    width: 100vw;
+    padding: 10px;
+
+}
+
+.aPageForbidden {
+  color: #EE4B5E !important;
+  text-decoration:none;
+}
+.aPageForbidden:hover {
+  color: #EE4B5E !important;
+  text-decoration:none;
+}
+
+.text-wrapper-PageForbidden {
+    height: 100%;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
+}
+
+.titlePageForbidden {
+    font-size: 5em;
+    font-weight: 700;
+    color: #bf0319;
+}
+
+.subtitlePageForbidden {
+    font-size: 40px;
+    font-weight: 700;
+    color: #1FA9D6;
+}
+.isiPageForbidden {
+    font-size: 18px;
+    text-align: center;
+    margin:30px;
+    padding:20px;
+    color: rgb(2, 2, 2);
+    font-weight: bold;
+}
+.buttonsPageForbidden {
+    margin: 30px;
+        font-weight: 700;
+        border: 2px solid #EE4B5E;
+        text-decoration: none;
+        padding: 15px;
+        text-transform: uppercase;
+        color: #EE4B5E;
+        border-radius: 26px;
+        transition: all 0.2s ease-in-out;
+        display: inline-block;
+        
+        .buttonsPageForbidden:hover {
+            background-color: #EE4B5E;
+            color: white;
+            transition: all 0.2s ease-in-out;
+        }
+  }
+.buttonsPageForbidden:hover{
+    transform: scale(1.1) ;
+
+}
+    

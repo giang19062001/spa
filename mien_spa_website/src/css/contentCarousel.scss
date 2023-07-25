@@ -1,0 +1,49 @@
+
+
+@media only screen and (max-width: 1024px) {
+  .BoxChildContentCarousel {
+    min-width: 50%;
+    height: auto;
+    transition: 0.5s;
+  }
+}
+ @media only screen and (min-width: 1024px) {
+    .BoxChildContentCarousel {
+      min-width:25%;
+      height: auto;
+      transition: 0.5s;
+    }
+  }
+
+
+  .BoxContentCarousel {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    position: relative;
+    overflow: hidden;
+    margin-bottom: 5em;
+  }
+  
+#moveBehind {
+  position: absolute;
+  top: 35%;
+  left: 0;
+  width: 5%;
+  height: 12%;
+  color: #fda4af;
+  z-index: 10;
+}
+#moveAhead {
+  position: absolute;
+  top: 35%;
+  right: 0;
+  width: 5%;
+  height: 12%;
+  color: #fda4af;
+  z-index: 10;
+
+}
+

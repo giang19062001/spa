@@ -1,0 +1,34 @@
+#idBoxSearchLive {
+  position: relative;
+}
+#idBoxDataSearch {
+  display: flex;
+  margin-bottom: 10px;
+  background-color: white;
+  z-index: 10;
+  padding: 2px;
+  border-radius: 30px;
+  :hover {
+    color: #fecdd3;
+    transform: scale(1.05);
+  }
+}
+
+[data-open="true"] {
+  border-left: 2px solid #fecdd3;
+  border-right: 2px solid #fecdd3;
+  border-bottom: 4px solid #fecdd3;
+  border-radius: 30px;
+  padding: 15px;
+  display: block;
+  transition: all ease-out;
+  position: absolute;
+  color: black;
+  background-color: white;
+  width: 90%;
+  top: 100%;
+}
+
+[data-open="false"] {
+  display: none;
+}

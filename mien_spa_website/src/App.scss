@@ -1,0 +1,92 @@
+
+*{
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+//bg pink text white
+#idButton1{
+    font-weight: bold;
+    background-color: #fda4af;
+    color: white;
+    border-radius: 20px;
+    width: 50%;
+    display: block;
+    margin: 0 auto;
+    margin-top: 20px;
+    &:hover{
+        background-color: #f43f5e        ;
+    }
+}
+//bg white text pink
+#idButton2{
+    font-weight: bold;
+    color: #fda4af;
+    border: 2px solid #fda4af;
+    border-radius: 20px;
+    display: block;
+    margin: 0 auto;
+    &:hover{
+        box-shadow: 3px 3px 5px #fda4af;
+    }
+    margin-top: 20px;
+    width: 50%;
+}
+//bg transparent hover bg pink 
+#idButton3 {
+    color: #000;
+    font-family: sans-serif;
+    display: inline-block;
+    position: relative;
+    transition: color .4s;
+    z-index: 1;
+  
+    &:before {
+      content: '';
+      position: absolute;
+      left: 0;
+      top: 0;
+      height: 100%;
+      width: 100%;
+      background:#fb7185      ;
+      border-radius: 30px;
+      transform-origin: 0 0;
+      transform: scaleX(0);
+      transition:  0.4s ;
+      
+      z-index: -1;
+    }
+  
+    &:hover {
+      color: #fff;
+  
+      &:before {
+        transform: scaleX(1);
+      }
+    }
+  }
+//disable
+#idButtonDisable{
+  font-weight: bold;
+  background-color: #ececec;
+  color: rgb(243, 81, 81);
+  border-radius: 20px;
+  width: 50%;
+  display: block;
+  margin: 0 auto;
+  margin-top: 20px;
+  &:hover{
+      background-color: #dfdede        ;
+  }
+}
+
+
+
+  
+  // admin menu
+  .MuiIconButton-root {
+    border-radius: 0%;
+  }
+  .MuiIconButton-root:disabled {
+   color: rgb(160, 158, 158) !important;
+  }
+

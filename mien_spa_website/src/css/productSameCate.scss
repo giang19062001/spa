@@ -1,0 +1,71 @@
+#idCardProductSameCate{
+    #idButtonCompareProductSameCate{
+        opacity: 0;
+        position: absolute;
+        top: 55%;
+        left: 50%;
+        transform: translate(-50%,-50%);
+        background-color: #22d3ee        ;
+        color: white;
+        border-radius: 30px;
+        transition: .5s ease;
+    }
+
+    #idButtonProductSameCate{
+        opacity: 0;
+        position: absolute;
+        top: 30%;
+        left: 50%;
+        transform: translate(-50%,-50%);
+        background-color: #fb7185;
+        color: white;
+        border-radius: 30px;
+        transition: .5s ease;
+    }
+    #idImgProductSameCate{
+        transition: .5s ease;
+        object-fit: cover;
+        
+    }
+
+    #idButtonProductSameCate{
+        &:hover{
+         background-color:#f43f5e;
+         box-shadow: 3px 3px 5px #e11d48;
+        }
+    }
+    #idButtonCompareProductSameCate{
+        &:hover{
+            background-color:#0ea5e9;
+            box-shadow: 3px 3px 5px #0ea5e9;
+           }
+    }
+    &:hover #idImgProductSameCate{
+        opacity: 0.3;
+    }
+
+    &:hover #idButtonProductSameCate{
+        opacity: 1;
+        top: 50%;
+    }
+    &:hover #idButtonCompareProductSameCate{
+        opacity: 1;
+        top: 30%;
+    }
+}
+
+
+#idBoxCompareProductSameCate {
+    width: 100%;
+    height: 100%;
+    #idImgCompareProductSameCate {
+        width: 100%;
+        height: 75%;
+        display: block;
+        margin: auto;
+        user-select: none;
+        border-radius: 30px;
+      }
+  }
+  
+ 

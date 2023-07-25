@@ -1,0 +1,67 @@
+#idTypographyShop {
+  display: block;
+  margin-bottom: 30px;
+  padding-bottom: 5px;
+  color: black;
+  font-weight: bold;
+  font-size: large;
+  position: relative;
+
+  &:hover {
+    &::before {
+      width: 100%;
+    }
+  }
+  &::before {
+    content: "";
+    position: absolute;
+    width: 0;
+    height: 100%;
+    border-bottom: 5px solid #fb7185;
+    transition: 0.5s;
+  }
+}
+
+#idCardShop {
+  #idButtonShop {
+    opacity: 0;
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #fb7185;
+    color: white;
+    border-radius: 30px;
+    transition: 0.5s ease;
+  }
+
+  #idImgShop {
+    transition: 0.5s ease;
+    object-fit: cover;
+  }
+  #idButtonShop {
+    &:hover {
+      background-color: #f43f5e;
+      box-shadow: 3px 3px 5px #e11d48;
+    }
+  }
+
+  &:hover #idImgShop {
+    opacity: 0.3;
+  }
+  &:hover #idButtonShop {
+    opacity: 1;
+    top: 40%;
+  }
+}
+
+#idBoxCateShop {
+  background-color: #fb7185;
+}
+input[type="radio"]:checked + #idBoxCate {
+  background-color: #ff0037;
+  font-weight: bold;
+}
+input[type="radio"]:not(checked) ~ #idBoxCate {
+  background-color: #fb7185;
+}

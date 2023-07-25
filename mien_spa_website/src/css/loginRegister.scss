@@ -1,0 +1,23 @@
+
+
+#idTypographyLoginRegister{
+    margin-bottom: 30px;
+    font-weight: bold;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: white;
+}
+
+#idIconSocial{
+    margin-top: 10px;
+    border: 1px solid black;
+    border-radius: 10px;
+    transition: .5s ease-out;
+    
+    &:hover{
+        transform: scale(1.2);
+    }
+}
+#idFormLoginRegister{
+    background-color: #f43f5e;
+    border-radius: 55% 45% 48% 52% / 0% 0% 100% 100% ;
+}
